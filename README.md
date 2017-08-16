@@ -42,7 +42,7 @@ node app-promise.js --help
 
 ### Possible entries  
 
-Address | `node app-promise.js -a [inputAddressHere]`
+Address | `node app-promise.js -a '[inputAddressHere]'`
  :---: | :---:
 Zipcode | `node app-promise.js -a 77067` ![zipcode](/images/zipcode.png?raw=true "Zipcode")
 Street Address | `node app-promise.js -a '88 Colin P Kelly Jr St'` ![streetAddress](/images/streetAddress.png?raw=true "streetAddress")
