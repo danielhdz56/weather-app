@@ -45,8 +45,8 @@ node app-promise.js --help
 Address | `node app-promise.js -a [inputAddressHere]`
  :---: | :---:
 Zipcode | `node app-promise.js -a 77067` ![zipcode](/images/zipcode.png?raw=true "Zipcode")
-Street Address | `node app-promise.js -a 77067` ![streetAddress](/images/streetAddress.png?raw=true "streetAddress")
-City | `node app-promise.js -a 77067` ![city](/images/city.png?raw=true "City")
-State | `node app-promise.js -a 77067` ![state](/images/state.png?raw=true "State")
-Country | `node app-promise.js -a 77067` ![country](/images/country.png?raw=true "Country")
-Etc. | `node app-promise.js -a 77067` ![etc](/images/etc.png?raw=true "Etc")
+Street Address | `node app-promise.js -a '88 Colin P Kelly Jr St'` ![streetAddress](/images/streetAddress.png?raw=true "streetAddress")
+City | `node app-promise.js -a 'houston'` ![city](/images/city.png?raw=true "City")
+State | `node app-promise.js -a 'texas'` ![state](/images/state.png?raw=true "State")
+Country | `node app-promise.js -a 'usa'` ![country](/images/country.png?raw=true "Country")
+Etc. | `node app-promise.js -a 'common grounds'` ![etc](/images/etc.png?raw=true "Etc")
