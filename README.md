@@ -50,3 +50,15 @@ City | `node app-promise.js -a 'houston'` ![city](/images/city.png?raw=true "Cit
 State | `node app-promise.js -a 'texas'` ![state](/images/state.png?raw=true "State")
 Country | `node app-promise.js -a 'usa'` ![country](/images/country.png?raw=true "Country")
 Etc. | `node app-promise.js -a 'common grounds'` ![etc](/images/etc.png?raw=true "Etc")
+
+### app-promise.js vs app.js
+* app-promise.js
+   * ES6 Promises to chain asynchronous requests
+   * Code is easier to maintain (not nesting a ton of callbacks to achieve the same result)
+   * npm axios, promise based HTTP client
+* app.js
+   * Uses callbacks to chain asyncronous requests
+   * Code is harder to maintain (a bunch of nested functions which results in heavy indentation)
+   * npm request, simplified HTTP request client 
+
+Both work, but app-promise.js is cleaner and easier to maintain
